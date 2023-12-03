@@ -1,0 +1,188 @@
+body {
+  background: url("../../images/hero-bg.png")
+}
+
+.navbar {
+  background: rgb(223,223,235); 
+background: linear-gradient(90deg, rgba(223,223,235,1) 0%, rgba(113,59,107,1) 0%, rgba(235,99,214,1) 2%);
+
+
+}
+
+
+.navbar a {
+  color: white;
+
+}
+
+.navbar-nav .nav-link:hover {
+  color: aqua;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  padding: 20px;
+  /*padding-left: 100px;*/
+
+}
+
+/* #hero {
+    
+    width: 100%;
+    height: auto;
+    background: #abc4ee;
+  } */
+
+
+.btn {
+
+
+  border-radius: 5px;
+  background: #e2026e;
+  color: rgb(255, 254, 254);
+
+}
+
+.btn:hover {
+  color: aqua;
+}
+
+.new {
+
+  background: #eaedf3;
+
+
+}
+
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+.order-card {
+  color: #fff;
+}
+
+.bg-c-blue {
+  background: linear-gradient(45deg, #6b0d6c, #9b5c18);
+}
+
+.card {
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: #94c5dc;
+  margin-bottom: 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+  padding: 5px;
+}
+
+/* new */
+
+
+
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.aqua-gradient {
+  background: linear-gradient(40deg, #753171, #da66c5)  !important;
+}
+
+.testimonial-card .avatar {
+  width: 120px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+.bg-cover {
+  background-size: cover !important;
+}
+
+.main{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.timer{
+  text-align: right;
+  margin-right: 15px;
+  font-size: 25px;
+  color: red;
+  font-weight: 600;
+}
+
+/* html,body {
+  font-family: 'Raleway', sans-serif;  
+} */
+.thankyou-page ._header {
+  background: #7f1689;
+  padding: 100px 30px;
+  text-align: center;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(224, 213, 220) 0%, rgb(223, 153, 210) 0%, rgb(171, 48, 157) 43%, rgb(155, 17, 91) 72%, rgb(108, 7, 103) 99%);
+}
+
+.thankyou-page ._header h1 {
+  font-size: 65px;
+  font-weight: 800;
+  color: rgb(11, 10, 10);
+  margin: 0;
+}
+.thankyou-page ._body {
+  margin: -70px 0 30px;
+}
+.thankyou-page ._body ._box {
+  margin: auto;
+  max-width: 80%;
+  padding: 50px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(213,213,224,1) 0%, rgba(255,255,255,1) 14%, rgba(177,241,241,1) 40%, rgba(230,235,236,1) 70%, rgb(135, 25, 160) 99%);
+  border-radius: 3px;
+  box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+  -moz-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+  -webkit-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+}
+
+.thankyou-page ._body ._box h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #0a100a;
+}
+.thankyou-page ._body ._box h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #db3373;
+}
+.thankyou-page ._footer {
+  text-align: center;
+  padding: 50px 30px;
+}
+
+.thankyou-page ._footer .btn {
+  background: #b04ab7;
+  color: white;
+  border: 0;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 0;
+  letter-spacing: 0.8px;
+  padding: 20px 33px;
+  text-transform: uppercase;
+}

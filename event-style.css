@@ -1,0 +1,162 @@
+.bg-cover {
+    background-size:cover!important;
+}
+
+.navbar{
+  background: rgb(223,223,235);
+  background: linear-gradient(90deg, rgba(223,223,235,1) 0%, rgba(113,59,107,1) 0%, rgba(235,99,214,1) 2%);
+     
+ 
+
+   
+  }
+  
+  .navbar .nav-item{
+    font-size: 30px;
+    padding:15px;
+   
+  }
+ .navbar a{
+  color: white;
+ }
+  
+   .navbar-nav .nav-link:hover{
+      color: aqua;
+  }
+  
+  .navbar-brand{
+    font-size:30px;
+    padding:30px;
+    /*padding-left: 100px;*/
+  
+  }
+
+
+  
+    
+   .btn{
+    
+      font-size: 18px;
+      border-radius: 15px;
+      background: #5b2508;
+      color: white;
+    
+  }
+
+  
+
+.register{
+    
+  font-size: 20px;
+  border-radius: 10px;
+  background: #92126c;
+  color: white;
+  padding: 10px 20px 10px 20px;
+
+
+}
+
+  
+#hero {
+    
+  width: 100%;
+  height: 80vh;
+  background:url("./images/hero-bg.png");
+  background-size: cover;
+  
+  
+}
+#hero .container {
+  padding-top: 50px;
+}
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: rgb(18, 5, 129);
+}
+#hero h2 {
+  color: rgba(11, 75, 101, 0.6);
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+
+#hero .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@media (max-width: 991px) {
+  #hero {
+    height: 100vh;
+    text-align: center;
+  }
+  #hero .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero .hero-img {
+    text-align: center;
+  }
+  #hero .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero .hero-img img {
+    width: 80%;
+  }
+  #hero .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+}
+
+
+.values{
+  background-color:rgb(246, 185, 235);;
+}
+.values .ab{
+  background-color:rgb(225, 20, 188);;
+}
+.values .box {
+  padding: 30px;
+  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  text-align: center;
+  transition: 0.3s;
+  height: 98%;
+}
+.values h1{
+  text-align: center;
+  font-weight: 500;
+  line-height: 56px;
+  color: rgb(76, 64, 179);
+}
+
+.values .box img {
+  padding: 30px 50px;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.values .box h3 {
+  font-size: 24px;
+  color: #012970;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.values .box:hover {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.values .box:hover img {
+  transform: scale(1);
+}
+
+.card-img-top{
+  width: 100%;
+ 
+  object-fit: cover;
+}

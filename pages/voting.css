@@ -1,0 +1,77 @@
+body{
+background-image: url("vote.jpg");
+}
+  .navbar {
+    background: rgb(223,223,235); 
+background: linear-gradient(90deg, rgba(223,223,235,1) 0%, rgba(113,59,107,1) 0%, rgba(235,99,214,1) 2%);
+  
+  
+  }
+  
+  
+  .navbar a {
+    color: white;
+  
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: aqua;
+  }
+  
+  .navbar-brand {
+    font-size: 30px;
+    padding: 20px;
+    /*padding-left: 100px;*/
+  
+  }
+
+
+  .card {
+     background-color: #fff; 
+    border-radius: 35px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    left: 45px;
+    height: 350px;
+    /* box-shadow: 0 0.46875rem 2.1875rem rgba(153, 50, 156, 0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1); */
+}
+
+
+.l-bg-blue-dark {
+    /* background: linear-gradient(to right, #ac20b8, #89077a) !important;
+    color: #fff; */
+    background-color:#c628c0
+}
+
+
+.card .card-statistic-3 .card-icon-large .fas, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
+    font-size: 110px;
+}
+
+.btn{
+  margin-left: 80px;
+  font-size: 18px;
+  border-radius: 5px;
+  background:#46053d;
+  color: white;
+
+}
+.card-header{
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.card-text{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.box{
+  text-align: center;
+  margin: 30px;
+  font-family: 'Poppins', sans-serif;
+
+
+}
